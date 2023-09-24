@@ -42,7 +42,7 @@ const PhoneDetails = () => {
                             </h4>
 
                             <a className="inline-block" href="#">
-                                <NavLink><button onClick={() => HendleAddData(phndetails.id)}
+                                <NavLink state={phndetails.phone_name}><button onClick={() => HendleAddData(phndetails.id)} 
                                     className="flex select-none bg-green-200 items-center gap-2 rounded-lg py-3 px-6 text-center align-middle font-sans text-xs font-bold uppercase text-pink-500 transition-all hover:bg-pink-500/10 active:bg-pink-500/30 disabled:pointer-events-none disabled:opacity-50 disabled:shadow-none"
                                     type="button"
                                 >

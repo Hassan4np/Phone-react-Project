@@ -2,7 +2,9 @@ import { NavLink } from "react-router-dom";
 
 
 const Card = ({ card }) => {
-    const { image, phone_name, price } = card || {}
+    const { image, phone_name, price } = card || {};
+
+    
     return (
         <div className="flex justify-center">
             <div className="relative flex w-[450px] flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
